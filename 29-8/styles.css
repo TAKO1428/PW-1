@@ -1,0 +1,90 @@
+body {
+    font-family: 'Handjet', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #5c6ac4;
+    font-size: 40px;
+    margin-bottom: 20px;
+    animation: fadeIn 1.5s ease;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  td, th {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #eee;
+    font-size: 16px;
+  }
+  
+  tr.menu {
+    background-color: #8ecae6;
+    color: #fff;
+  }
+  
+  tr.compiladores {
+    background-color: #ffb5a7;
+  }
+  
+  tr.diseno-logico {
+    background-color: #ffcad4;
+  }
+  
+  tr.ia {
+    background-color: #cdb4db;
+  }
+  
+  tr.programacion-web-ii {
+    background-color: #a2d2ff;
+  }
+  
+  tr.lenguajes-formales {
+    background-color: #bde0fe;
+  }
+  
+  tr.programacion-web-i {
+    background-color: #ffc8dd;
+  }
+  
+  tr.administracion-proyectos {
+    background-color: #cde4fd;
+  }
+  
+  tr.lab-diseno-logico {
+    background-color: #e2eafc;
+  }
+  
+  tr {
+    animation: fadeIn 1s ease;
+  }
+  
+  tr:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
